@@ -16,6 +16,15 @@
         font-family: SUITE-Regular;
     }
 
+    .no-drag {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
   body {
     margin: 0;
     padding: 0;
@@ -132,7 +141,7 @@
 
 </style>
 </head>
-<body>
+<body class="no-drag">
     <div class="container">
         <h1>🎓과목등급계산기 Beta</h1>
         <p>과목등급계산기 Beta는 입력한 정보를 바탕으로 과목 등급을 예측합니다. 계산 결과는 학교나 교수자의 공식 성적으로 인정되지 않습니다. 재미로 사용하시고 예상 과목 등급을 확인해보세요!</p>
